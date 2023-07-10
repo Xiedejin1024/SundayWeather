@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_3">
+
+    <TextView
+        android:id="@+id/tv_hour_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="06时" />
+
+    <ImageView
+        android:id="@+id/image_hour_icon"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:src="@mipmap/ic_clear_day" />
+
+    <TextView
+        android:id="@+id/tv_hour_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="29°" />
+
+
+</LinearLayout>

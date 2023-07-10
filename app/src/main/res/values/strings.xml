@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">未羊天气</string>
+    //搜索城市部分
+    <string name="edit_searchPlace">搜索城市天气</string>
+</resources>

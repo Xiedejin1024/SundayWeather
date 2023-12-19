@@ -2,6 +2,7 @@ package com.sundayweather.android
 
 import android.app.Application
 import android.content.Context
+import com.tencent.bugly.crashreport.CrashReport
 
 class MyApplication : Application() {
     companion object {
@@ -14,5 +15,6 @@ class MyApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         context = applicationContext
+        CrashReport.initCrashReport(context)
     }
 }

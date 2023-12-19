@@ -27,6 +27,7 @@ import com.sundayweather.android.ui.weather.HourlyAdapter
 import com.sundayweather.android.ui.weather.WeatherViewModel
 import com.sundayweather.android.utils.ToastUtil
 import com.sundayweather.android.utils.showToast
+import com.tencent.bugly.crashreport.CrashReport
 import java.text.SimpleDateFormat
 import java.util.*
 
